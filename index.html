@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beer Roulette</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <h1>Пивная рулетка</h1>
+      </header>
+
+      <main class="roulette-section">
+        <div class="roulette-frame">
+          <div class="roulette-frame__glow" aria-hidden="true"></div>
+          <div class="roulette-marker" aria-hidden="true">
+            <span></span>
+          </div>
+
+          <div class="roulette-viewport" aria-live="polite">
+            <div class="roulette-track" id="roulette-track"></div>
+          </div>
+        </div>
+
+        <section class="controls">
+          <button class="spin-button" id="spin-button" type="button">
+            Крутить рулетку
+          </button>
+        </section>
+      </main>
+    </div>
+
+    <div class="result-overlay" id="result-overlay" hidden>
+      <div class="result-card" id="result-card">
+        <p class="result-card__eyebrow">Твой дроп</p>
+        <div class="result-card__image-wrap">
+          <img id="result-image" alt="" />
+        </div>
+        <div class="result-card__text">
+          <p class="result-card__rarity" id="result-rarity"></p>
+          <h2 id="result-name"></h2>
+        </div>
+        <div class="result-card__actions">
+          <button class="spin-button spin-button--secondary" id="spin-again-button" type="button">
+            Крутить снова
+          </button>
+          <button class="ghost-button" id="close-result-button" type="button">
+            Закрыть
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
