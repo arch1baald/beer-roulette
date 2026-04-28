@@ -4,7 +4,10 @@
 
 ## Видео с разработкой
 
-Сайт был завайбкожен с нуля в реальном времени на YouTube: [https://www.youtube.com/@savostyanov]([https://www.youtube.com/@savostyanov](https://youtu.be/hSPb3O-ROHI))
+Сайт был завайбкожен с нуля в реальном времени на YouTube: https://youtu.be/hSPb3O-ROHI
+
+Об авторе: я Machine Learning Engineer в стартапе из Кремниевой Долины, обучаю нейросети для 3D анимации. До этого развивал проект GOSU AI. 
+Подписывайтесь на мой телеграм: https://t.me/savostyanov_dmitry
 
 ## Что внутри
 
