@@ -4,7 +4,7 @@
 
 ## Видео с разработкой
 
-Сайт был завайбкожен с нуля в реальном времени на YouTube: [https://www.youtube.com/@savostyanov](https://www.youtube.com/@savostyanov)
+Сайт был завайбкожен с нуля в реальном времени на YouTube: [https://www.youtube.com/@savostyanov]([https://www.youtube.com/@savostyanov](https://youtu.be/hSPb3O-ROHI))
 
 ## Что внутри
 
